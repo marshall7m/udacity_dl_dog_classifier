@@ -38,7 +38,9 @@ CNN model from scratch:
   (dropout): Dropout(p=0.3)
 ) `
 
+
 VGG-16 Model:
+
 
 ` VGG(
 
@@ -119,6 +121,8 @@ VGG-16 Model:
 
 ) ) `
 
-### Hyper-Parameters
+
+### Training Hyper-Parameters
+
 
 ## Results
