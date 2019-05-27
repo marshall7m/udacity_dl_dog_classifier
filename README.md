@@ -16,7 +16,7 @@ This project involved two major components. The first component is indentifying 
 
 CNN model from scratch:
 
-`Net(
+` Net(
   (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
   
   (batch_n1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
@@ -36,11 +36,11 @@ CNN model from scratch:
   (fc2): Linear(in_features=500, out_features=133, bias=True)
   
   (dropout): Dropout(p=0.3)
-)`
+) `
 
 VGG-16 Model:
 
-`VGG(
+` VGG(
 
 (features): Sequential(
 
@@ -117,7 +117,7 @@ VGG-16 Model:
 
 (drop2): Dropout(p=0.3)
 
-) )`
+) ) `
 
 ### Hyper-Parameters
 
